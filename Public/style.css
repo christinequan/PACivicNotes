@@ -1,0 +1,82 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #4286f4;
+  /*background-color: #345AA0*/
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("images/palo-alto.jpg");
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 95vh;
+  width: 100vw;
+  color: white;
+}
+
+header h1 {
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-size: 100px;
+
+  opacity: 0.8;
+  background-color: black;
+  margin: 5 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 span {
+  opacity: 0.7;
+}
+
+#search{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 680px;
+
+}
+
+#search input{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  width: 500px;
+
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 24px;
+  height: 2em;
+
+  background-color: white;
+  border-color: white;
+  opacity: 0.9;
+}
+
+#search input[type=submit] {
+  margin-top: 1em;
+  width: 150px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  opacity: 0.78;
+
+  background-color: white;
+  border-color: white;
+}
+
+#results {
+}
+
+
+.hidden {
+  display: none !important;
+}
